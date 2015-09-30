@@ -1,4 +1,4 @@
-   //mouvement fluide des changements de page
+   //mouvement fluide 
         $(function () {
             $('nav a').on('click', function (e) {
                 e.preventDefault();

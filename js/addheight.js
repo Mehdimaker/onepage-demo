@@ -1,4 +1,4 @@
-  //Définie la taille des section en fonction de la page
+  //Définie la taille des sections 
         $(document).ready(function () {
             jQuery('document').ready(function () {
                 var min_height = jQuery(window).height();
