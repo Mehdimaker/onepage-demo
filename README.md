@@ -10,17 +10,17 @@ Nous utiliserons donc pour le style le fichier bootstrap.min.css et pour l’int
 Commençons par créer notre fichier index.html
 
 ###Commençons par créer notre fichier indx.html
-'''html
-<!DOCTYPE html>                  
+```html
+<!DOCTYPE html>
 <html>
-<head>        
-  <title>Site One Page</title>                
-  <meta charset="utf-8"/>                      
+<head>
+  <title>Site One Page</title>
+  <meta charset="utf-8"/>
 </head>
 <body>
 </body>
 </html>
-'''
+```
 
 Télécharger Boostrap et lié le fichier boostrap.min.css dans le head de votre index.html
 
