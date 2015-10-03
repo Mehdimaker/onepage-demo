@@ -30,7 +30,7 @@ Et bien placer les fichiers .css dans un dossier css et les fichiers .js dans un
 <script src="/js/jquery-1.11.2.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 ```
-Pour la navbar voici le code qu'on ajoutera juste après l'ouverture de la balise body dans une balise <div class="container-fluid">
+Pour la navbar voici le code qu'on ajoutera juste après l'ouverture de la balise body dans une balise div class="container-fluid"
 
 Notre barre de navigation prendra donc toute la largeur de l'écran, elle sera en position fixed en haut de la page et sera responsive; en effet lorsque la taille de l'écran sera infèrieure à une certaine valeur la navbar se transformera et laissera apparaître un menu hamburger pour faciliter la navigation sur mobile.
 ```html
@@ -65,7 +65,7 @@ Notre barre de navigation prendra donc toute la largeur de l'écran, elle sera e
     </nav>
 </div>
 ```
-Place au contenu, pour cela, toujours dans notre balise <div class="container-fluid">, à la suite de notre <nav>, nous allons ajouter nos 6 sections composées d'un titre et d'un texte. Bien entendu chaque section aura un id différent: menu1, menu2, menu3 ...
+Place au contenu, pour cela, toujours dans notre balise div class="container-fluid", à la suite de notre nav, nous allons ajouter nos 6 sections composées d'un titre et d'un texte. Bien entendu chaque section aura un id différent: menu1, menu2, menu3 ...
 ```html
 <section class="jumbotron" id="menu1">
     <div class="container">
@@ -123,4 +123,4 @@ $(document).ready(function () {
             }
     });
 });
-```html
+
